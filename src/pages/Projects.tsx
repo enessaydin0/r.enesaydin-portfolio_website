@@ -3,6 +3,7 @@ import ProjectCard from '../components/ProjectCard';
 import proje1Resmi from '../assets/CineFix.png';
 import proje2Resmi from '../assets/Mindora.png';
 import proje3Resmi from '../assets/AirCast.png';
+import proje4Resmi from '../assets/Sierra.jpg';
 import { useTranslation } from 'react-i18next';
 
 const projectsData = [
@@ -17,6 +18,15 @@ const projectsData = [
   },
   {
     id:2,
+    title: 'Sierra Voice Assistant',
+    description: 'Python ile geliştirilmiş, Spotify, Wikipedia ve Gemini yapay zeka APIlerini entegre eden modüler sesli asistan. API kullanımı, kişiselleştirme ve sistem kontrolü yeteneklerini sergileyen kapsamlı bir portfolyo projesi.',
+    image: proje4Resmi,
+    tags: ['Python', 'Spotify API', 'Wikipedia API', 'Gemini API'],
+    liveUrl: '#',
+    githubUrl: 'https://github.com/enessaydin0/Sierra-Voice-Assistant',
+  },
+  {
+    id:3,
     title: 'Mindora',
     description: 'Mindora, C# ve SQL Server kullanılarak geliştirilen bir masaüstü kütüphane otomasyon sistemidir. Sistemde 3 farklı kullanıcı rolü bulunmaktadır: Üye, Kütüphane Görevlisi ve Admin. Her rol, kendine özgü arayüz ve yetkilere sahiptir.',
     image: proje2Resmi,
@@ -25,7 +35,7 @@ const projectsData = [
     githubUrl: 'https://github.com/enessaydin0/Mindora',
   },
   {
-    id:3,
+    id:4,
     title: 'AirCast',
     description: 'AirCast, OpenWeather APIsi kullanarak dünya genelindeki şehirlerin hava durumu bilgilerini sunan ve sıcaklık değişimlerini grafiksel olarak gösteren bir masaüstü C# uygulamasıdır.',
     image: proje3Resmi,
