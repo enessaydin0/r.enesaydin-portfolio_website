@@ -7,7 +7,7 @@
     "test": "...",
     "dev": "tsx watch src/index.ts",
     "start": "node dist/index.js",
-    "build": "npx tsc",
+    "build": "tsc && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
